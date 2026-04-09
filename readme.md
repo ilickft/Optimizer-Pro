@@ -41,3 +41,26 @@ If you want to run or modify the Python code directly:
 2. Install the required UI library:
    ```bash
    pip install customtkinter
+   ```
+3. Run the script:
+   ```bash
+   python cleaner.py
+   ```
+
+### 🏗️ Building the Executable (Self-Build)
+If you prefer to compile the Python script into a standalone `.exe` file yourself, you can easily do so using `PyInstaller`.
+
+1. Install PyInstaller via pip:
+   ```bash
+   pip install pyinstaller
+   ```
+2. Open your terminal or command prompt in the folder containing `cleaner.py`.
+3. Run the following build command:
+   ```bash
+   pyinstaller --noconsole --onefile cleaner.py
+   ```
+   * **`--noconsole`**: Hides the background terminal window when the application is launched (perfect for GUI apps).
+   * **`--onefile`**: Bundles the application and all its dependencies into a single, clean `.exe` file.
+4. Once the process completes, navigate to the newly created `dist/` folder in your project directory. Your compiled `cleaner.exe` will be waiting there!
+
+*Note: You may safely delete the `build/` folder and the `.spec` file generated during this process to keep your workspace clean.*
