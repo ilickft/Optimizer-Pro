@@ -63,4 +63,12 @@ If you prefer to compile the Python script into a standalone `.exe` file yoursel
    * **`--onefile`**: Bundles the application and all its dependencies into a single, clean `.exe` file.
 4. Once the process completes, navigate to the newly created `dist/` folder in your project directory. Your compiled `cleaner.exe` will be waiting there!
 
-*Note: You may safely delete the `build/` folder and the `.spec` file generated during this process to keep your workspace clean.*
+
+## 👤 Author
+
+-   **Name:** KARIO
+-   **GitHub:** [@ilickft](https://github.com/ilickft)
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
